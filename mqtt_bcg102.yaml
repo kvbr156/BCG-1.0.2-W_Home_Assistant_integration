@@ -1,0 +1,180 @@
+sensor:
+  - unique_id: wbe2-i-opentherm_11_Boiler_Status
+    name: "wbe2-i-opentherm_11 Boiler Status"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Boiler Status"
+    unit_of_measurement: ""
+    icon: mdi:alertcircle
+
+  - unique_id: wbe2-i-opentherm_11_Boiler_fault_indication
+    name: "wbe2-i-opentherm_11 Boiler fault indication"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Boiler fault indication"
+    unit_of_measurement: ""
+    icon: mdi:alertcircle
+
+  - unique_id: wbe2-i-opentherm_11_Error_Code
+    name: "wbe2-i-opentherm_11 Error Code"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Error Code"
+    unit_of_measurement: ""
+    icon: mdi:alertcircle
+
+
+  - unique_id: wbe2-i-opentherm_11_Burner_Modulation_Level
+    name: "wbe2-i-opentherm_11 Burner Modulation Level"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Burner Modulation Level (%)"
+    unit_of_measurement: "%"
+    device_class: "power_factor"
+    icon: mdi:percent-circle-outline
+
+  - unique_id: wbe2-i-opentherm_11_Heating_Return_Water_Temperature
+    name: "wbe2-i-opentherm_11 Heating Return Water Temperature"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Heating Return Water Temperature"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:thermometer
+
+  - unique_id: wbe2-i-opentherm_11_Boiler_Outdoor_Temperature_Sensor
+    name: "wbe2-i-opentherm_11/Boiler Outdoor Temperature Sensor"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Boiler Outdoor Temperature Sensor"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:thermometer
+
+  - unique_id: wbe2-i-opentherm_11_Hot_Water_Setpoint_Min
+    name: "wbe2-i-opentherm_11 Hot Water Setpoint Min"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Hot Water Setpoint Min"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:faucet
+
+  - unique_id: wbe2-i-opentherm_11_Hot_Water_Setpoint_Max
+    name: "wbe2-i-opentherm_11 Hot Water Setpoint Max"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Hot Water Setpoint Max"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:faucet
+
+  - unique_id: wbe2-i-opentherm_11_Heating_Setpoint_Min
+    name: "wbe2-i-opentherm_11 Heating Setpoint Min"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Heating Setpoint Min"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:radiator
+
+  - unique_id: wbe2-i-opentherm_11_Heating_Setpoint_Max
+    name: "wbe2-i-opentherm_11 Heating Setpoint Max"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Heating Setpoint Max"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:radiator
+
+  - unique_id: wbe2-i-opentherm_11_Calculated_Heating_Setpoint
+    name: "wbe2-i-opentherm_11_Calculated Heating Setpoint"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Calculated Heating Setpoint"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:radiator
+
+  - unique_id: wbe2-i-opentherm_11_Heating_Temperature
+    name: "wbe2-i-opentherm_11 Heating Temperature"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Heating Temperature"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:thermometer
+
+  - unique_id: wbe2-i-opentherm_11_Hot_Water_Temperature
+    name: "wbe2-i-opentherm_11 Hot Water Temperature"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Hot Water Temperature"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:thermometer
+
+  - unique_id: wbe2-i-opentherm_11_Heating_Setpoint
+    name: "wbe2-i-opentherm_11 Heating Setpoint"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Heating Setpoint"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:thermometer
+
+  - unique_id: wbe2-i-opentherm_11_External_Outdoor_Temperature
+    name: "wbe2-i-opentherm_11 External Outdoor Temperature"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Outdoor Temperature"
+    unit_of_measurement: "°C"
+    device_class: "temperature"
+    icon: mdi:thermometer
+
+  - unique_id: wbe2-i-opentherm_11_Water_Pressure
+    name: "wbe2-i-opentherm_11 Water Pressure"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Water Pressure"
+    unit_of_measurement: "bar"
+    device_class: "pressure"
+    icon: mdi:gauge
+
+binary_sensor:
+  - unique_id: wbe2-i-opentherm_11_Boiler_CH_mode
+    name: "wbe2-i-opentherm_11 Boiler CH mode"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Boiler CH mode"
+    payload_on: "1"
+    payload_off: "0"
+    icon: mdi:radiator
+
+  - unique_id: wbe2-i-opentherm_11_Boiler_CH2_mode
+    name: "wbe2-i-opentherm_11_Boiler CH2 mode"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Boiler CH2 mode"
+    payload_on: "1"
+    payload_off: "0"
+    icon: mdi:radiator
+
+  - unique_id: wbe2-i-opentherm_11_Boiler_DHW_mode
+    name: "wbe2-i-opentherm_11 Boiler DHW mode"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Boiler DHW mode"
+    payload_on: "1"
+    payload_off: "0"
+    icon: mdi:faucet
+  
+  - unique_id: wbe2-i-opentherm_11_Invalid Connection
+    name: "Invalid Connection"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Invalid Connection"
+    payload_on: "1"
+    payload_off: "0"
+    device_class: "plug"
+    icon: mdi:waves
+    
+  - unique_id: wbe2-i-opentherm_11_Boiler Flame Status
+    name: "Flame"
+    state_topic: "/devices/wbe2-i-opentherm_11/controls/Boiler Flame Status"
+    payload_on: "1"
+    payload_off: "0"
+    device_class: "heat"
+    icon: mdi:fire
+    
+climate:
+  - unique_id: wbe2-i-opentherm_11_DHW_Thermostat
+    name: "wbe2-i-opentherm_11 DHW Thermostat"
+    temperature_state_topic: "/devices/wbe2-i-opentherm_11/controls/Hot Water Setpoint"
+    temperature_command_topic: "/devices/wbe2-i-opentherm_11/controls/Hot Water Setpoint/on"
+    current_temperature_topic: "/devices/wbe2-i-opentherm_11/controls/Hot Water Temperature"
+    min_temp: 0
+    max_temp: 90
+    value_template: "{{ value }}"
+    temp_step: 0.5
+
+  - unique_id: wbe2-i-opentherm_11_CH_Thermostat
+    name: "wbe2-i-opentherm_11 CH Thermostat"
+    temperature_state_topic: "/devices/wbe2-i-opentherm_11/controls/Heating Setpoint"
+    temperature_command_topic: "/devices/wbe2-i-opentherm_11/controls/Heating Setpoint/on"
+    current_temperature_topic: "/devices/wbe2-i-opentherm_11/controls/Heating Temperature"
+    min_temp: 0
+    max_temp: 90
+    value_template: "{{ value }}"
+    temp_step: 0.5
+
+  - unique_id: wbe2-i-opentherm_11_Room_Internal_Thermostat_MQTT
+    name: "wbe2-i-opentherm_11 Room Internal Thermostat MQTT"
+    temperature_state_topic: "/devices/wbe2-i-opentherm_11/controls/Room Temperature Setpoint"
+    temperature_command_topic: "/devices/wbe2-i-opentherm_11/controls/Room Temperature Setpoint/on"
+    current_temperature_topic: "/devices/wbe2-i-opentherm_11/controls/Room Temperature"
+    min_temp: 10
+    max_temp: 40
+    value_template: "{{ value }}"
+    temp_step: 0.5
+
